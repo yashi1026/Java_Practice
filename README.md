@@ -88,3 +88,78 @@
 
 ---
 
+# OOPs_Programs
+
+---
+
+🧠 Concepts Covered
+
+- **Abstraction**
+- **Encapsulation**
+- **Inheritance**
+  - Single Inheritance
+  - Multilevel Inheritance
+  - Hierarchical Inheritance
+- **Polymorphism**
+  - Method Overloading
+  - Method Overriding using `super`
+- **Interfaces**
+- **Constructors (and Constructor Inheritance)**
+
+---
+
+📁 Program Descriptions
+
+🔷 1. `AbstractionShape.java`
+- **Concepts Used:** Abstraction, Inheritance
+- **Description:** Demonstrates the use of abstract classes to define a general `Shape` and derived classes like `Circle`, `Rectangle`, etc., that implement specific behavior.
+
+ 🐾 2. `AnimalInterface.java`
+- **Concepts Used:** Interface, Polymorphism
+- **Description:** Uses an interface `Animal` with classes like `Dog`, `Cat` implementing their own versions of animal behaviors.
+
+ 💰 3. `BankAccountBalanceProtectionUsingEncapsulation.java`
+- **Concepts Used:** Encapsulation
+- **Description:** Demonstrates encapsulation by securing bank account data and providing controlled access through getter and setter methods.
+
+ 🏦 4. `BankExample.java`
+- **Concepts Used:** Inheritance, Abstraction
+- **Description:** Illustrates a basic banking system using parent and child classes to show base account behaviors and specific account types.
+
+ ➕ 5. `CalculatorMethodThroughOverloading.java`
+- **Concepts Used:** Method Overloading (Compile-time Polymorphism)
+- **Description:** A simple calculator class showcasing overloading methods with different parameter types and counts.
+
+ 🏗️ 6. `ConstructionInheritance.java`
+- **Concepts Used:** Constructors, Inheritance
+- **Description:** Shows how constructors are called in an inheritance chain and how to pass values through super constructors.
+
+ 🧬 7. `Hierarchial.java`
+- **Concepts Used:** Hierarchical Inheritance
+- **Description:** Multiple subclasses inherit from a single parent class, each demonstrating different implementations of inherited methods.
+
+ 👪 8. `Inheritance.java`
+- **Concepts Used:** General Inheritance
+- **Description:** A simple parent-child relationship to demonstrate how attributes and methods are inherited.
+
+ 🪜 9. `MultilevelInheritance.java`
+- **Concepts Used:** Multilevel Inheritance
+- **Description:** Inheritance across more than two levels to show how properties and methods propagate down the chain.
+
+ 👤 10. `SingleInheritance.java`
+- **Concepts Used:** Single Inheritance
+- **Description:** Basic example of a child class inheriting from one parent class.
+
+ 🎓 11. `StudentDataEncapsulation.java`
+- **Concepts Used:** Encapsulation
+- **Description:** Stores and protects student data using private variables and public getters/setters.
+
+ 🔄 12. `PolymorphismUsingSuperInheritance.java`
+- **Concepts Used:** Method Overriding, Polymorphism, `super` keyword
+- **Description:** Demonstrates runtime polymorphism using overridden methods and use of `super` to access parent class methods.
+
+ 🚗 13. `VehicleInterface.java`
+- **Concepts Used:** Interface, Polymorphism
+- **Description:** Uses a `Vehicle` interface implemented by different types of vehicles to demonstrate polymorphic behavior.
+
+---
