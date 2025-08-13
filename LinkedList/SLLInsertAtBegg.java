@@ -15,7 +15,7 @@ public class SLLInsertAtBegg{
         return newNode;
     }
      public static void main(String[] args) {
-         6
+         
         Node head = null;
         head = insertAtBeginning(head, 30);
         head = insertAtBeginning(head, 20);
@@ -27,5 +27,6 @@ public class SLLInsertAtBegg{
         }
     }
 }
+
 
 
