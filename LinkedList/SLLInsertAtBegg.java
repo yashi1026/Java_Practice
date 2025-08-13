@@ -14,6 +14,7 @@ public class SLLInsertAtBegg{
         newNode.next = head;
         return newNode;
     }
+    
      public static void main(String[] args) {
          
         Node head = null;
@@ -27,6 +28,7 @@ public class SLLInsertAtBegg{
         }
     }
 }
+
 
 
 
