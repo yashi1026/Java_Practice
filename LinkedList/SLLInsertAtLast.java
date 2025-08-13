@@ -8,6 +8,7 @@ class Node {
     }
 }
 public class SLLInsertAtLast {
+    
     static Node insertAtEnd(Node head, int data) {
         Node newNode = new Node(data);
         if (head == null) 
@@ -22,6 +23,7 @@ public class SLLInsertAtLast {
         return head;
     }
     public static void main(String[] args) {
+        
         Node head = null;
         head = insertAtEnd(head, 10);
         head = insertAtEnd(head, 20);
@@ -35,4 +37,5 @@ public class SLLInsertAtLast {
         }
     }
 }
+
 
