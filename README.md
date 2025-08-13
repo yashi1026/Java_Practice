@@ -163,3 +163,91 @@
 - **Description:** Uses a `Vehicle` interface implemented by different types of vehicles to demonstrate polymorphic behavior.
 
 ---
+
+
+## 📌 Patterns
+
+ 1. **ABCD Triangle**
+- Prints characters in alphabetical order forming a triangle.
+- **Concepts used:**
+  - `chr()` function
+  - Nested `for` loops
+  - ASCII manipulation
+
+ 2. **Diamond Triangle**
+- Forms a diamond shape with stars (`*`).
+- **Concepts used:**
+  - Loop control for upper and lower halves
+  - Space and star alignment using nested loops
+
+ 3. **Floyd's Triangle**
+- A right-angled triangle with continuously increasing numbers.
+- **Concepts used:**
+  - Incrementing counters
+  - Nested loops
+
+ 4. **Hollow Triangle**
+- Triangle with border stars and hollow center.
+- **Concepts used:**
+  - Conditional statements within loops
+  - Border logic using `if` statements
+
+ 5. **Inverted Triangle**
+- An upside-down right-angled triangle.
+- **Concepts used:**
+  - Reverse loop iteration
+  - Decreasing patterns using `range()`
+
+ 6. **Number Triangle**
+- Prints triangle with sequential numbers in each row.
+- **Concepts used:**
+  - Integer counters
+  - Looping and formatting
+
+ 7. **Pascal's Triangle**
+- Prints Pascal's triangle using binomial coefficients.
+- **Concepts used:**
+  - Factorial computation
+  - Mathematical logic using `math.factorial()`
+
+8. **Pyramid Triangle**
+- A centered triangle of stars.
+- **Concepts used:**
+  - Center alignment using spaces
+  - Incremental star printing
+
+ 9. **Right Angled Triangle**
+- Basic triangle aligned to the left.
+- **Concepts used:**
+  - Nested loops
+  - Simple increasing pattern
+
+10. **Sandglass Triangle**
+- A symmetrical triangle pattern resembling a sandglass.
+- **Concepts used:**
+  - Looping for both top and bottom
+  - Space and star arrangement
+
+ 11. **Square Triangle**
+- Forms a triangle using square-shaped output (equal width and height rows).
+- **Concepts used:**
+  - Equal-length rows
+  - Uniform pattern using loops
+
+12. **ZeroOne Triangle**
+- A triangle of alternating 0s and 1s.
+- **Concepts used:**
+  - Conditional logic with even/odd row index
+  - Modulus operation (`%`)
+
+---
+
+## 🧠 Concepts Covered
+
+- **Loops:** `for` and `while` loops
+- **Conditionals:** `if`, `else` for pattern shaping
+- **String and Character Handling:** ASCII values, `chr()` and `ord()`
+- **Math Functions:** `math.factorial()` for Pascal's triangle
+- **Functions:** Some patterns use user-defined functions for modularity
+
+---
