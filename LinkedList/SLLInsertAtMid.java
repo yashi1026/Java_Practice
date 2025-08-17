@@ -11,6 +11,7 @@ class Node {
 public class SLLInsertAtMid {
     
     static Node insertAtPosition(Node head, int data, int pos) {
+        
         Node newNode = new Node(data);
         if (pos == 1) {
             newNode.next = head;
@@ -29,6 +30,7 @@ public class SLLInsertAtMid {
         return head;
     }
     public static void main(String[] args) {
+        
         Node head = null;
         head = insertAtPosition(head, 10, 1); // 10
         head = insertAtPosition(head, 30, 2); // 10 -> 30
@@ -40,4 +42,5 @@ public class SLLInsertAtMid {
         }
     }
 }
+
 
