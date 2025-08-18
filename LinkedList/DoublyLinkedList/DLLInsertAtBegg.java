@@ -25,7 +25,7 @@ public class DLLInsertAtBegg {
         head = insertAtBeginning(head, 30); // 30
         head = insertAtBeginning(head, 20); // 20 -> 30
         head = insertAtBeginning(head, 10); // 10 -> 20 -> 30
-        head = insertAtBeginning(head, 5); // 10 -> 20 -> 30 -> 5
+        head = insertAtBeginning(head, 5); // 5 -> 10 -> 20 -> 30
 
         System.out.print("Forward traversal: ");
         Node temp = head;
@@ -43,3 +43,4 @@ public class DLLInsertAtBegg {
         }
     }
 }
+
