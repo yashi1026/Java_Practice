@@ -26,6 +26,7 @@ class RemoveDuplicates {
         s.push(3);
 
         Stack<Integer> result = removeConsecutiveDuplicates(s);
-        System.out.println(result); // Output: [1, 2, 3]
+        System.out.println(result); // Output: [1, 2, 3]  
+        
     }
 }
